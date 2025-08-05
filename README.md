@@ -1,13 +1,16 @@
 open cmd
 
- 
- 
- 
- git clone https://github.com/Baskearavind/bmi.git
- 
- 
- 
- pip install -r requirements.txt
- 
- 
- streamlit run app.py
+
+
+git clone https://github.com/Baskearavind/bmi.git
+
+cd bmi
+
+
+cd streamlit_project
+
+
+pip install -r requirements.txt
+
+
+streamlit run app.py
